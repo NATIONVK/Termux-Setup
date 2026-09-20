@@ -442,4 +442,3 @@ pkg update -y && pkg install git -y && git clone https://github.com/NATIONVK/Ter
 
 এটা ব্যবহার করলে আলাদা আলাদা `git clone`, `cd`, `python setup.py` লিখতে হবে না। একই ধরনের Termux setup projects-এও Git clone → setup script চালানোর workflow ব্যবহৃত হয়।
 
-**একটা জিনিস খেয়াল রাখবে:** README-তে আমি `MIT` badge দিয়েছি, কিন্তু তোমার repo-তে সত্যিই `LICENSE` ফাইল MIT হলে তবেই সেটা রাখবে। না হলে badge-টা সরিয়ে দিও।
