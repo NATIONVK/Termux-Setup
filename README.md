@@ -54,7 +54,7 @@ The setup includes:
 ### 🚀 Recommended
 
 ```bash
-pkg update -y && pkg install git -y && git clone https://github.com/NATIONVK/Termux-Setup.git && cd Termux-Setup && python setup.py
+pkg update -y && pkg install git -y && git clone https://github.com/NATIONVK/Termux-Setup.git && cd Termux-Setup &&  python termux_setup.py
 ```
 
 That's it.
@@ -69,7 +69,7 @@ If you already cloned the repository:
 
 ```bash
 cd Termux-Setup
-python setup.py
+python termux_setup.py
 ```
 
 If the script is executable:
